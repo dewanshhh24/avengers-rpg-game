@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Bangers&family=Orbitron:wght@600&display=swap');
+
+* {
+  box-sizing: border-box;
+  font-family: 'Orbitron', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: linear-gradient(to bottom, #1a1a2e, #16213e);
+  color: #fff;
+  padding: 20px;
+}
+
+#game {
+  max-width: 900px;
+  margin: 2rem auto;
+  background: rgba(255, 255, 255, 0.05);
+  padding: 2rem;
+  border-radius: 20px;
+  box-shadow: 0 0 20px #ff6f00;
+}
+
+#hero-banner h1 {
+  text-align: center;
+  font-size: 2.5rem;
+  color: #ffe227;
+}
+
+#hero-banner span {
+  color: #ff6f00;
+}
+
+#stats
+ {
+  display: flex;
+  justify-content: space-around;
+  background-color: rgba(0, 0, 0, 0.4);
+  padding: 1rem;
+  margin-top: 1rem;
+  border-radius: 12px;
+}
+#monsterStats{
+    display: none;
+    justify-content: space-around;
+    background-color: rgba(0, 0, 0, 0.4);
+    padding: 1rem;
+    margin-top: 1rem;
+    border-radius: 12px;
+}
+
+#stats .stat,
+#monsterStats .stat {
+  font-size: 1.2rem;
+  color: #fffcf2;
+}
+
+#controls {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin-top: 1.5rem;
+}
+
+button {
+  background-color: #ff6f00;
+  border: none;
+  border-radius: 12px;
+  padding: 1rem 2rem;
+  color: #fff;
+  font-size: 1.1rem;
+  margin: 10px;
+  transition: 0.3s;
+  cursor: pointer;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+}
+
+button:hover {
+  background-color: #ffa600;
+}
+
+#text {
+  background-color: rgba(0, 0, 0, 0.6);
+  color: #ffffff;
+  padding: 1.5rem;
+  margin-top: 2rem;
+  border-radius: 12px;
+  font-size: 1.2rem;
+  text-align: justify;
+  font-family: 'Bangers', cursive;
+}
+
+@media (max-width: 768px) {
+  #controls {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  button {
+    width: 90%;
+  }
+
+  #stats,
+  #monsterStats {
+    flex-direction: column;
+    align-items: center;
+  }
+}
