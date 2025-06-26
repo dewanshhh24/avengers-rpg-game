@@ -64,7 +64,7 @@ const locations = [
         name: "New York",
         "button text": ["Go to AvengersHQ", "Go to Battlefield", "Fight Thanos"],
         "button functions": [goAvengersHQ, goBattlefield, fightThanos],
-        text: "Welcome to Thanos Repeller. You must defeat the Thanos that is preventing people from leaving the town. You are in the New York. Where do you want to go? Use the buttons above."
+        text: "Welcome to Infinity Warzone! Thanos is wiping out half the universe. You're in New York. At the Avengers HQ you will find powerful weapons to fight your enemies. You currently wield a Vibranium Spear from Wakanda. Where will you go next?"
     },
 
     {
